@@ -2,6 +2,9 @@ from django.db import models
 from django.contrib.auth import get_user_model
 
 from martor.models import MartorField
+from django.db.models import AutoField
+from django.db.models import BigAutoField
+
 
 User = get_user_model()
 
